@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.navbar{
+
+border: none;
+background-color: black;
+color: #61122F;
+}
+body{
+	color: black;
+}
+
+.center{
+	width: 90%;
+
+}
+
+.text-center{
+	font-size: 30px;
+}
+
+#myNavbar ul li a {
+	color: #61122F;
+}
+.navbar-brand{
+font-size: 30px;	
+}
+li:hover {
+  font-size: small;
+text-decoration:underline;
+}
+
+a:hover {
+  text-decoration: wavy;
+  cursor: pointer;
+  background-color: #1b9bff;
+  transition: .5s;
+}
+.sub1, .sub2, .sub3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: rgb(108, 61, 155);
+  margin: 10px;
+  padding: 15px;
+
+
+}
+.sub1 p {
+  font-size: small;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.sub2 p {
+  font-size: small;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.sub3 p {
+  font-size: small;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+      
+/*desktop version*/
+@media (min-width: 992px) {
+  .column-lg-4 {
+      float: left;
+      width: 33.33%;
+  }
+}
+
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .colmn-md-6 {
+      float: left;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .colmn-md-12 {
+      width: 90%; 
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+}
+
+/*mobile version*/
+@media (max-width: 767px) {
+  .colmn-sm-12 {
+      float: left;
+      width: 100%;
+
+  }
+  .top{
+    color: black;
+  }
