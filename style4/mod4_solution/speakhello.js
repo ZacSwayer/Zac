@@ -1,7 +1,7 @@
 
 var helloSpeaker = {};
-helloSpeaker.gretting = "Hello";
+helloSpeaker.greeting = "Hello";
 helloSpeaker.Speak = function Speak(names) {
-  console.log(helloSpeaker.gretting + " " + names);
+  console.log(helloSpeaker.greeting + " " + names);
 }
 
