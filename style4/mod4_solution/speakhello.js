@@ -1,7 +1,11 @@
+(function (window) {
 
-var helloSpeaker = {};
-helloSpeaker.greeting = "Hello";
-helloSpeaker.Speak = function Speak(names) {
-  console.log(helloSpeaker.greeting + " " + names);
-}
-
+  var helloSpeaker = {};
+  helloSpeaker.gretting = "Hello";
+  helloSpeaker.Speak = function Speak(names) {
+    console.log(helloSpeaker.gretting + " " + names);
+  }
+  window.helloSpeaker = helloSpeaker;
+  })(window);
+  
+  
